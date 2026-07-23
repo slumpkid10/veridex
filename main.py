@@ -1,13 +1,9 @@
-"""
-VERIDEX
-Autonomous Freelance Intelligence Platform
+from core.engine import VeridexEngine
 
-Version: 1.0
-Status: Build Day 1
-"""
 
 def main():
-    print("🚀 VERIDEX is alive.")
+    engine = VeridexEngine()
+    engine.start()
 
 
 if __name__ == "__main__":
